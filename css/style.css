@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #3494e6, #ec6ead);
+}
+
+.bio {
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.profile-picture {
+  width: 20em;
+  border-radius: 100%;
+  margin-bottom: 0px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.github {
+  background-color: #333;
+}
+
+.resume {
+  background-color: #4caf50;
+}
+
+.social-link i {
+  margin-right: 5px;
+}
